@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+:root {
+  --color-text: #ffffff;
+  --color-error: #980000;
+  --color-paper: #232323;
+  --color-primary: #009688;
+  --color-background: #000000;
+  --color-primary-contrast: #ffffff;
+}
+.bg-blue {
+  background-color: rgb(81, 191, 255);
+}
+
+
+* {
+  @apply outline-primary outline-1 -outline-offset-2;
+}
+html,
+body {
+  overflow: overlay;
+  @apply bg-background text-text w-screen h-screen;
+  margin: 5px 4px;
+}
+
+.text{
+  color:aliceblue
+}
+
+.button {
+  @apply p-2 px-2 bg-primary rounded underline-offset-4;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.post {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.post h3 {
+  margin: 0;
+  color: #333;
+}
+.post p {
+  color: #555;
+}
+  a {
+    @apply hover:underline active:opacity-50 transition-opacity;
+  }
+  .overflow-primary::-webkit-scrollbar-thumb {
+    @apply bg-primary;
+  }
+  *::-webkit-scrollbar {
+    @apply h-3 w-2;
+  }
+  *::-webkit-scrollbar-button {
+    @apply hidden;
+  }
+  *::-webkit-scrollbar-corner {
+    @apply bg-transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-paper;
+  }
+  *::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+    
+    
+    .h1{
+    padding-top: 40px;
+    font-size: 80px; 
+    margin-left: 70px;
+    margin-top: 95px;
+    margin-bottom: -270px;
+    color: #CD0F3D;
+    font-family: 'Poppins', extrabold;
+    }
+    
+    .h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 270px;
+    margin-left: 74px;
+    }
+    
+    .h5{
+        text-align:center;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        padding-top: 9px;
+    }
+    
+    .bg-primary {
+      margin-left: 1200px;
+      margin-top: 30px;
+    }
+    
+    .nav a{
+      color: white;
+      text-decoration: none;
+    }
+
+    
+    .conteiner-footer{ /*Todos os direitos reservados a empresa */
+      display: block;
+      background-color: #FF6C19;
+      width: 1520px;
+      height: 40px;
+      margin-top: 200px;
+      border-radius: 15px;
+      margin-bottom: 100px;
+    }
+    
+    .conteiner-footer{
+    text-align: center;
+    margin-bottom: 90px;
+    }
+    
+    .marombafoto{
+    display: flex;
+    width: 640px;
+    height: auto;
+    margin-top: -460px;
+    margin-left: 820px;
+    
+    }
+    
+    .roboto-mono- { 
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 16px;
+        font-style: normal;
+      }
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+    
+    .btn-home{
+      width: 120px;
+      height: 25px;
+      border-radius: 40px;
+      margin-left: 150px;
+      margin-top: -400px;
+      background-color: #FF6C19;
+      border: none;
+      padding-top: -20px;
+      color: #ffffff;
+      font-family: 'Poppins', extrabold;
+     }
+  
+
+    .logohome{
+    margin-left: 40px;
+    width: 100px;
+    height: auto; 
+    margin-top: -20px; 
+    margin-bottom: 30px; 
+    }
+   
+    .sobre{
+    margin-left: 34px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+     }
+
+    .ft-sobre{
+     width: 500px;
+     margin-left: 900px;
+     }
+
+  .treinos{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    display: flex;
+    text-align: end;
+    justify-content: space-around;
+  }
+
+  .main{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  div.newPost{
+    width: 100%;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
