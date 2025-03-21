@@ -110,6 +110,8 @@ header {
     .bg-primary {
       margin-left: 1200px;
       margin-top: 30px;
+      background-color: #FF6C19;
+      fil
     }
     
     .nav a{
@@ -214,7 +216,6 @@ header {
     border-radius: 10px;
     box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
   }
-  #titulocadastro
 
 
   
