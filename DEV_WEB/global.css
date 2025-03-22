@@ -99,21 +99,11 @@ header {
     margin-left: 74px;
     }
     
-    .h5{
-        text-align:center;
-        color: #ffffff;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        padding-top: 9px;
-    }
-    
     .bg-primary {
       margin-left: 1200px;
       margin-top: 30px;
-      background-color: #FF6C19;
-      fil
     }
-    
+  
     .nav a{
       color: white;
       text-decoration: none;
@@ -121,7 +111,6 @@ header {
 
     
     .conteiner-footer{ /*Todos os direitos reservados a empresa */
-      display: block;
       background-color: #FF6C19;
       width: 1520px;
       height: 40px;
@@ -129,11 +118,14 @@ header {
       border-radius: 15px;
       margin-bottom: 100px;
     }
-    
-    .conteiner-footer{
-    text-align: center;
-    margin-bottom: 90px;
-    }
+
+    .footerh5{
+      text-align:center;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      padding-top: 9px;
+  }
     
     .marombafoto{
     display: flex;
@@ -193,10 +185,9 @@ header {
     margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    display: inline-block;
     display: flex;
-    text-align: end;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: space-between;
   }
 
   .main{
@@ -217,5 +208,58 @@ header {
     box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
   }
 
+  .headercomunidade{
+    background-color: #FF6C19;
 
+
+  }
+
+  .navcomunidade{
+      margin-left: 1200px;
+      margin-top: 30px;
+  }
+  .textbox{
+    display: flex;
+    justify-content: center;
+  }
+
+  .lcomu{
+    padding-top: 40px;
+    margin-left: 70px;
+    margin-top: 95px;
+    color: #000000;
+    font-family: 'Poppins', extrabold;
+    
+  }
   
+
+  .descubramais{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+    justify-content: space-around;
+  
+  }
+
+  .secao2{
+    margin-left: 54px;
+    margin-bottom: 10px;
+    margin-top: 105px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .comunidadeh1{
+    font-size: 70px;
+    color: #CD0F3D;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .comunidadeh2{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: -55px;
+  }
+
