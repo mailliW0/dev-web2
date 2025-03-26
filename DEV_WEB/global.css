@@ -15,7 +15,6 @@
   background-color: rgb(81, 191, 255);
 }
 
-
 * {
   @apply outline-primary outline-1 -outline-offset-2;
 }
@@ -26,8 +25,8 @@ body {
   margin: 5px 4px;
 }
 
-.text{
-  color:aliceblue
+.text {
+  color: aliceblue;
 }
 
 .button {
@@ -35,7 +34,7 @@ body {
 }
 
 header {
-  background-color: #FF6C19;
+  background-color: #ff6c19;
   color: white;
   padding: 15px;
   text-align: center;
@@ -59,207 +58,217 @@ header {
 .post p {
   color: #555;
 }
-  a {
-    @apply hover:underline active:opacity-50 transition-opacity;
-  }
-  .overflow-primary::-webkit-scrollbar-thumb {
-    @apply bg-primary;
-  }
-  *::-webkit-scrollbar {
-    @apply h-3 w-2;
-  }
-  *::-webkit-scrollbar-button {
-    @apply hidden;
-  }
-  *::-webkit-scrollbar-corner {
-    @apply bg-transparent;
-  }
-  *::-webkit-scrollbar-thumb {
-    @apply rounded-full bg-paper;
-  }
-  *::-webkit-scrollbar-track {
-    @apply bg-transparent;
-  }
-    
-    
-    .h1{
-    padding-top: 40px;
-    font-size: 80px; 
-    margin-left: 70px;
-    margin-top: 95px;
-    margin-bottom: -270px;
-    color: #CD0F3D;
-    font-family: 'Poppins', extrabold;
-    }
-    
-    .h2{
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 100px;
-    margin-top: 270px;
-    margin-left: 74px;
-    }
-    
-    .bg-primary {
-      margin-left: 1200px;
-      margin-top: 30px;
-    }
-  
-    .nav a{
-      color: white;
-      text-decoration: none;
-    }
+a {
+  @apply hover:underline active:opacity-50 transition-opacity;
+}
+.overflow-primary::-webkit-scrollbar-thumb {
+  @apply bg-primary;
+}
+*::-webkit-scrollbar {
+  @apply h-3 w-2;
+}
+*::-webkit-scrollbar-button {
+  @apply hidden;
+}
+*::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
+*::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-paper;
+}
+*::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
 
-    
-    .conteiner-footer{ /*Todos os direitos reservados a empresa */
-      background-color: #FF6C19;
-      width: 1520px;
-      height: 40px;
-      margin-top: 200px;
-      border-radius: 15px;
-      margin-bottom: 100px;
-    }
+.h1 {
+  padding-top: 40px;
+  font-size: 80px;
+  margin-left: 70px;
+  margin-top: 95px;
+  margin-bottom: -270px;
+  color: #cd0f3d;
+  font-family: "Poppins", extrabold;
+}
 
-    .footerh5{
-      text-align:center;
-      color: #ffffff;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 500;
-      padding-top: 9px;
-  }
-    
-    .marombafoto{
-    display: flex;
-    width: 640px;
-    height: auto;
-    margin-top: -460px;
-    margin-left: 820px;
-    
-    }
-    
-    .roboto-mono- { 
-        font-family: "Roboto Mono", monospace;
-        font-optical-sizing: auto;
-        font-weight: 16px;
-        font-style: normal;
-      }
-      .poppins-extrabold {
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-      }
-    
-    .btn-home{
-      width: 120px;
-      height: 25px;
-      border-radius: 40px;
-      margin-left: 150px;
-      margin-top: -400px;
-      background-color: #FF6C19;
-      border: none;
-      padding-top: -20px;
-      color: #ffffff;
-      font-family: 'Poppins', extrabold;
-     }
-  
+.h2 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 270px;
+  margin-left: 74px;
+}
 
-    .logohome{
-    margin-left: 40px;
-    width: 100px;
-    height: auto; 
-    margin-top: -20px; 
-    margin-bottom: 30px; 
-    }
-   
-    .sobre{
-    margin-left: 34px;
-    margin-top: 40px;
-    font-family: 'Poppins', sans-serif;
-     }
+.bg-primary {
+  margin-left: 1200px;
+  margin-top: 30px;
+}
 
-    .ft-sobre{
-     width: 500px;
-     margin-left: 900px;
-     }
+.nav a {
+  color: white;
+  text-decoration: none;
+}
 
-  .treinos{
-    margin-left: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-  }
+.conteiner-footer {
+  /*Todos os direitos reservados a empresa */
+  background-color: #ff6c19;
+  width: 1520px;
+  height: 40px;
+  margin-top: 200px;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
 
-  .main{
-    max-width: 900px;
-    margin: 0 auto;
-  }
+.footerh5 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding-top: 9px;
+}
 
-  div.newPost{
-    width: 100%;
-    height: 240px;
+.marombafoto {
+  display: flex;
+  width: 640px;
+  height: auto;
+  margin-top: -460px;
+  margin-left: 820px;
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.roboto-mono- {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 16px;
+  font-style: normal;
+}
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
 
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
-  }
+.btn-home {
+  width: 120px;
+  height: 25px;
+  border-radius: 40px;
+  margin-left: 150px;
+  margin-top: -400px;
+  background-color: #ff6c19;
+  border: none;
+  padding-top: -20px;
+  color: #ffffff;
+  font-family: "Poppins", extrabold;
+}
 
-  .headercomunidade{
-    background-color: #FF6C19;
+.logohome {
+  margin-left: 40px;
+  width: 100px;
+  height: auto;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
 
+.sobre {
+  margin-left: 34px;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
 
-  }
+.ft-sobre {
+  width: 500px;
+  margin-left: 900px;
+}
 
-  .navcomunidade{
-      margin-left: 1200px;
-      margin-top: 30px;
-  }
-  .textbox{
-    display: flex;
-    justify-content: center;
-  }
+.treinos {
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
 
-  .lcomu{
-    padding-top: 40px;
-    margin-left: 70px;
-    margin-top: 95px;
-    color: #000000;
-    font-family: 'Poppins', extrabold;
-    
-  }
-  
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
-  .descubramais{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 25px;
-    justify-content: space-around;
-  
-  }
+div.newPost {
+  width: 100%;
+  height: 240px;
 
-  .secao2{
-    margin-left: 54px;
-    margin-bottom: 10px;
-    margin-top: 105px;
-    font-family: 'Poppins', sans-serif;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
+}
 
-  .comunidadeh1{
-    font-size: 70px;
-    color: #CD0F3D;
-    margin-left: 50px;
-    margin-top: 10px;
-    font-family: 'Poppins', sans-serif;
-  }
+.headercomunidade {
+  background-color: #ff6c19;
+}
 
-  .comunidadeh2{
-    font-family: 'Poppins', sans-serif;
-    margin-left: 50px;
-    margin-top: -55px;
-  }
+.navcomunidade {
+  margin-left: 1200px;
+  margin-top: 30px;
+}
+.textbox {
+  display: flex;
+  justify-content: center;
+}
 
+.lcomu {
+  padding-top: 40px;
+  margin-left: 70px;
+  margin-top: 95px;
+  color: #000000;
+  font-family: "Poppins", extrabold;
+}
+
+.descubramais {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+  justify-content: space-around;
+}
+
+.secao2 {
+  margin-left: 54px;
+  margin-bottom: 10px;
+  margin-top: 105px;
+  font-family: "Poppins", sans-serif;
+}
+
+.comunidadeh1 {
+  font-size: 70px;
+  color: #cd0f3d;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.comunidadeh2 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  margin-top: -55px;
+}
+
+cadastroForm {
+  width: 300px;
+  margin: 200px auto;
+  text-align: center;
+}
+input {
+  display: block;
+  margin: 10px auto;
+}
+
+paginaCadastro {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
