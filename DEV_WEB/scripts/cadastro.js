@@ -19,4 +19,8 @@ async function cadastrarUsuario(nome, email, senha) {
   console.log("Usuário cadastrado com sucesso!");
 }
 
-cadastrarUsuario();
+const nome = document.getElementById("nome").value;
+const email = document.getElementById("email").value;
+const senha = document.getElementById("senha").value;
+
+cadastrarUsuario(nome, email, senha);
