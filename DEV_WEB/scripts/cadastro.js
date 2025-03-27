@@ -1,26 +1,15 @@
-import sqlite3 from "sqlite3";
-import { open } from "sqlite";
-
 // Função para cadastrar um novo usuário
-async function cadastrarUsuario(nome, email, senha) {
-  const db = await open({
-    filename: "./DEV_WEB/banco.db",
-    driver: sqlite3.Database,
-  });
+var btn = document.querySelector("#send");
+cadastrarUsuario = () => {};
+btn.addEventListener("click", (e) => {
+  e.preventDefault();
+  const nome = document.querySelector("#nome").value;
+  const email = document.querySelector("#email").value;
+  const senha = document.querySelector("#senha").value;
 
-  db.run(
-    `CREATE TABLE IF NOT EXISTS usuarios(id INTEGER PRIMARY KEY, nome TEXT,email TEXT,senha TEXT)`
-  );
-  db.run(
-    `INSERT INTO usuarios (nome, email, senha) VALUES ?,?, `[
-      (nome, email, senha)
-    ]
-  );
-  console.log("Usuário cadastrado com sucesso!");
-}
-
-const nome = document.getElementById("nome").value;
-const email = document.getElementById("email").value;
-const senha = document.getElementById("senha").value;
-
-cadastrarUsuario(nome, email, senha);
+  if (nome && email && senha) {
+    cadastrarUsuario(nome, email, senha);
+  } else {
+    alert("Preencha todos os campos!");
+  }
+});

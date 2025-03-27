@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,23 +10,30 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
+    <script src="/DEV_WEB/scripts/cadastro.js" defer></script>
     <link rel="stylesheet" href="/DEV_WEB/global.css" />
   </head>
   <body>
- 
-
     <img src="/DEV_WEB/assets/LOGOFITSTRENGTH.png" class="logohome" />
 
     <div class="textos">
       <h1 class="h1">DÊ UM UP <br />NO SEU TREINO!</h1>
       <h2 class="h2">O Bem-Estar que você merece</h2>
-
-         <forms class="cadastroForm">
+    </div>
+    <forms class="cadastroForm">
       <h3>Cadastre-se</h3>
-      <input type="text" placeholder="Nome" id="nome"/>
+      <input type="text" placeholder="Nome" id="nome" />
       <input type="text" placeholder="Email" id="email" />
       <input type="password" placeholder="Senha" id="senha" />
-      <input type="submit" id="submit" onclick="cadastrarUsuario()" />
+      <input type="submit" value="enviar" id="send" />
+      <p class="h2">
+        Já tem uma conta? <a href="/DEV_WEB/pages/login.html">Clique aqui</a>
+      </p>
+      <p class="h2">
+        Ao se cadastrar, você concorda com nossos
+        <a href="#">Termos de Serviço</a> e
+        <a href="#">Política de Privacidade</a>.
+      </p>
     </forms>
 
     <img
