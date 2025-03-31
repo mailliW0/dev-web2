@@ -58,21 +58,6 @@ a {
 .overflow-primary::-webkit-scrollbar-thumb {
   @apply bg-primary;
 }
-*::-webkit-scrollbar {
-  @apply h-3 w-2;
-}
-*::-webkit-scrollbar-button {
-  @apply hidden;
-}
-*::-webkit-scrollbar-corner {
-  @apply bg-transparent;
-}
-*::-webkit-scrollbar-thumb {
-  @apply rounded-full bg-paper;
-}
-*::-webkit-scrollbar-track {
-  @apply bg-transparent;
-}
 
 .h1 {
   padding-top: 40px;
@@ -100,6 +85,7 @@ a {
 }
 
 .navbar {
+  display: flex;
   color: white;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -107,18 +93,18 @@ a {
   margin-left: 1100px;
   margin-top: -40px;
   text-decoration: none;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .conteiner-footer {
   /*Todos os direitos reservados a empresa */
-  display: block;
   background-color: #ff6c19;
+  position: relative;
   width: 1520px;
   height: 40px;
-  margin-top: 200px;
+  margin-top: 100px;
   border-radius: 15px;
-  margin-bottom: 100px;
+  bottom: 0;
 }
 
 .conteiner-footer {
@@ -128,6 +114,7 @@ a {
 
 .marombafoto {
   display: flex;
+  max-width: 100%;
   width: 640px;
   height: auto;
   margin-top: -460px;
@@ -147,6 +134,7 @@ a {
 }
 
 .btn-home {
+  display: inline-block;
   width: 120px;
   height: 25px;
   border-radius: 40px;
@@ -189,10 +177,16 @@ a {
 }
 
 .descubramais {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.textdescubra {
+iframe {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  margin-bottom: 20px;
 }
 
 .main {
